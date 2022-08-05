@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+.container.foto.icon
+{
+    display: flex;
+  
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.foto
+{
+    width: 700px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.foto .icon
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0; 
+    text-decoration: none;
+}
+
+.perfil
+{
+    display: flex;
+    text-align: center;
+    width: 160px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+ .imag:hover img
+ {
+border: 1px solid white
+ }
+ .imag:hover .limpo img
+ {
+    border: solid 1px transparent;
+ }
+
+ .imag:hover a
+ {
+    color: white;
+ }
+
+img
+{
+    border-radius: 8px;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+a
+{
+    color: rgba(255, 255, 255, 0.384);
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.limpo:hover
+{
+    border-color: aliceblue;
+}
+
+.limpo{
+    display: flex;
+    height: 160px;
+    width: 160px;
+    background-color: rgb(78, 78, 78);
+    align-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+a:hover .limpo
+{
+    border: 1px solid white;
+}
+
+
+.buton{
+    height: 30px;
+    padding: 15px 30px 30px 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: medium;
+    }
+
+.buton:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
